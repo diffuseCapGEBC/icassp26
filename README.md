@@ -1,2 +1,2 @@
-# PhysID project page
-This is project page for showing the demo of the application
+# DiffuseCap project page
+This is project page for more details on DiffuseCap
