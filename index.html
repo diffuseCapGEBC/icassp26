@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 
 
-  <title>PhysID: Physics-Based Interactive Dynamics From A Single-View Image</title>
+  <title>Predictive Video Captioning Via Diffusion Models</title>
   <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,7 +52,7 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">PhysID: Physics-Based Interactive Dynamics From A Single-View Image</h1>
+            <h1 class="title is-1 publication-title">Predictive Video Captioning Via Diffusion Models</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
@@ -159,7 +159,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Transforming static images into interactive experiences remains a challenging task in computer vision. Tackling this challenge holds the potential to elevate mobile user experiences, notably through interactive and AR/VR applications. Current approaches aim to achieve this either using pre-recorded video responses or requiring multi-view images as input. In this paper, we present PhysID, that streamlines the creation of physics-based interactive dynamics from a single-view image by leveraging large generative models for 3D mesh generation and physical property prediction. This significantly reduces the expertise required for engineering-intensive tasks like 3D modeling and intrinsic property calibration, enabling the process to be scaled with minimal manual intervention. We integrate an on-device physics-based engine for physically plausible realtime rendering with user interactions. PhysID represents a leap forward in mobile-based interactive dynamics, offering realtime, non-deterministic interactions and user-personalization with efficient on-device memory consumption. Experiments evaluate the zero-shot capabilities of various Multimodal Large Language Models (MLLMs) on diverse tasks and the performance of 3D reconstruction models. These results demonstrate the cohesive functioning of all modules within the end-to-end framework, contributing to its effectiveness.
+            Generic Event Boundary Captioning is the task of precisely describing the subject and status of the subject, before and after the class-agnostic event boundary. Current approaches in GEBC rely on autoregressive methods for caption generation. This paper introduces DiffuseCap, a novel non-autoregressive approach based on diffusion models. We present two architectures for GEBC that utilize conditional diffusion models. The first architecture consists of three diffusion models trained separately for subject captioning, before and after status captioning. The second architecture employs a unified model capable of simultaneously predicting all three captions. We demonstrate that this framework, despite being trained only on the standard GEBC task, develops an emergent, zero-shot capability for Predictive Captioning—the ability to infer future event descriptions from past-only visual context, and vice-versa. Our results establish a new baseline for non-autoregressive GEBC and demonstrate the efficacy of diffusion models for emergent temporal reasoning in video.
           </p>
         </div>
       </div>
@@ -169,32 +169,6 @@
 <!-- End paper abstract -->
 
 
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3" style="text-align: center;">Demo Videos</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop>
-            <!-- Your video file here -->
-            <source src="static/videos/Rose_v2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop>
-            <!-- Your video file here -->
-            <source src="static/videos/Frock_v2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
 
 <!-- Image carousel -->
 <section class="hero is-small">
@@ -203,30 +177,30 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/classification_prompts_updated_2.png" alt="MY ALT TEXT"/>
+        <img src="static/images/PredictiveCaptioning2.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Prompts design for Classification tasks
+          Predictive Captioning (Qualitative Examples)
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/regression_prompts_updated.png" alt="MY ALT TEXT"/>
+        <img src="static/images/Qualitative analysis of Predictions of DiffusCap-v2 with respect to the ground truth.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Prompts design for Regression tasks
+          Qualitative analysis of Predictions of DiffusCap-v2 with respect to the ground truth
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/qualitative_regression.png" alt="MY ALT TEXT"/>
+        <img src="static/images/Qualitative analysis of predictions of DiffusCap-v1 with respect to the ground truth.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Example output of MLLM on few images
+          Qualitative analysis of predictions of DiffusCap-v1 with respect to the ground truth
        </h2>
      </div>
      <div class="item">
       <!-- Your image here -->
-      <img src="static/images/qualitative_classification_task_examples.png" alt="MY ALT TEXT"/>
+      <img src="static/images/dataDistribution.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
-        Example output of MLLM on few images
+        Data Distribution
      </h2>
    </div>
   </div>
